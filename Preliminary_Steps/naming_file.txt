@@ -1,3 +1,5 @@
+#within baeolophus-numbered.txt
+
 1_R1.fastq.gz   B_bicolor_G_LHD1272_R1.fastq.gz
 1_R2.fastq.gz   B_bicolor_G_LHD1272_R2.fastq.gz
 2_R1.fastq.gz   B_bicolor_G_LHD1279_R1.fastq.gz
