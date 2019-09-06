@@ -1,0 +1,10 @@
+#move directory for dryobates
+
+cd /lustre/scratch/sabaty/woodpecker-project/dryobates-transcriptomes
+
+
+#rename the input reads files
+
+while read -r name1 name2; do
+	mv $name2 $name1
+done < dryobates-numbered.txt
