@@ -1,0 +1,14 @@
+#within dryobates_numbered.txt
+
+7_R1.fastq.gz   D_pubescens_G_LHD1271_R1.fastq.gz
+7_R2.fastq.gz   D_pubescens_G_LHD1271_R2.fastq.gz
+8_R1.fastq.gz   D_pubescens_G_LHD1273_R1.fastq.gz
+8_R2.fastq.gz   D_pubescens_G_LHD1273_R2.fastq.gz
+9_R1.fastq.gz   D_pubescens_G_LHD1278_R1.fastq.gz
+9_R2.fastq.gz   D_pubescens_G_LHD1278_R2.fastq.gz
+10_R1.fastq.gz  D_pubescens_L_LHD1271_R1.fastq.gz
+10_R2.fastq.gz  D_pubescens_L_LHD1271_R2.fastq.gz
+11_R1.fastq.gz  D_pubescens_L_LHD1273_R1.fastq.gz
+11_R2.fastq.gz  D_pubescens_L_LHD1273_R2.fastq.gz
+12_R1.fastq.gz  D_pubescens_L_LHD1278_R1.fastq.gz
+12_R2.fastq.gz  D_pubescens_L_LHD1278_R2.fastq.gz
