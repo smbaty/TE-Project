@@ -1,0 +1,10 @@
+#move directory for baeolophus
+
+cd /lustre/scratch/sabaty/woodpecker-project/baeolophus-transcriptomes
+
+
+#rename the input reads files
+
+while read -r name1 name2; do
+	mv $name2 $name1
+done < baeolophus-numbered.txt
