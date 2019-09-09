@@ -13,7 +13,7 @@
 #$ -l h_rt=48:00:00
 #$ -l h_vmem=12G
 
-perl rcorrector/run_rcorrector.pl \
+perl /lustre/scratch/sabaty/woodpecker-project/rcorrector/run_rcorrector.pl \
 -1 seq_file_left /lustre/scratch/sabaty/woodpecker-project/baeolophus_transcriptomes/${SGE_TASK_ID}_R1.fastq.gz \
 -2 seq_file_right /lustre/scratch/sabaty/woodpecker-project/baeolophus_transcriptomes/${SGE_TASK_ID}_R2.fastq.gz \
 -od output_file_directory /lustre/scratch/sabaty/woodpecker-project/baeolophus_transcriptomes/b-rcor-results
