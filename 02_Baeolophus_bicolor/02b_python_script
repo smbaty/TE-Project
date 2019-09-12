@@ -18,4 +18,4 @@
 python /home/sabaty/TranscriptomeAssemblyTools/FilterUncorrectabledPEfastq.py \
 -1 /lustre/scratch/sabaty/woodpecker-project/baeolophus_transcriptomes/b-rcor-results/${SGE_TASK_ID}_R1.cor.fq.gz \
 -2 /lustre/scratch/sabaty/woodpecker-project/baeolophus_transcriptomes/b-rcor-results/${SGE_TASK_ID}_R2.cor.fq.gz \
--s ${SGE_TASK_ID}
+-s ${SGE_TASK_ID}_baeolophus
