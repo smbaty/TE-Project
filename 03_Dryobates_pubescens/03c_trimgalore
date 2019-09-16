@@ -1,1 +1,16 @@
+#!/bin/sh
+#$ -V
+#$ -cwd
+#$ -S /bin/bash
+#$ -N dryo_trimgalore
+#$ -q omni
+#$ -pe sm 4
+#$ -P quanah
+#$ -t 7-6
+#$ -l h_rt=48:00:00
+#$ -l h_vmem=12G
 
+/home/sabaty/anaconda2/bin/trim_galore \
+--paired --phred33 --output_dir /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-trimgalore-results --length 36 --stringency 1 -e 0.1 \
+/lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-python-results/unfixrm_${SGE_TASK_ID}_R1.cor.fq \
+/lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-python-results/unfixrm_${SGE_TASK_ID}_R2.cor.fq
