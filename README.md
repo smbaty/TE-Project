@@ -8,3 +8,4 @@ The preliminary steps includes renaming the fastq files for both species to have
 
 
 Both the Baeolophus bicolor and Dryobates pubescens directories includes all tools used in order and what scripts were used.
+rCorrector is the first step, the unique python script is next, and trimgalore is third.
