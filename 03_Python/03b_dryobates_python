@@ -1,0 +1,16 @@
+#!/bin/sh
+#$ -V
+#$ -cwd
+#$ -S /bin/bash
+#$ -N python_dryobates
+#$ -q omni
+#$ -pe sm 4
+#$ -P quanah
+#$ -t 7-12
+#$ -l h_rt=48:00:00
+#$ -l h_vmem=12G
+
+python /home/sabaty/TranscriptomeAssemblyTools/FilterUncorrectabledPEfastq.py \
+-1 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-rcor-results/${SGE_TASK_ID}_R1.cor.fq.gz \
+-2 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-rcor-results/${SGE_TASK_ID}_R2.cor.fq.gz \
+-s ${SGE_TASK_ID}_dryobates
