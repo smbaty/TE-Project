@@ -14,4 +14,4 @@ Both the Baeolophus bicolor and Dryobates pubescens directories includes all too
 
 
 
-Once the reads went through trimming, we used HISAT to build a comparison genome index with Parus major to compare the reads against.
+Once the reads went through trimming, we used HISAT to build a comparison genome index with Parus major to compare the Baeolophus bicolor reads against, and an index for the Dryobates pubescens to compare the trimmed Dryobates pubescens reads against.
