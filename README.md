@@ -7,11 +7,8 @@ The preliminary steps includes renaming the fastq files for both species to have
 
 
 
-Both the Baeolophus bicolor and Dryobates pubescens directories includes all tools used in order and what scripts were used.
+Directories includes all tools used in order and what scripts were used.
 1. rCorrector (read error-correcting)
 2. Unique python script (used to remove pairs where one end is unfixable)
 3. Trimgalore (trimming low quality bases)
-
-
-
-Once the reads went through trimming, we used HISAT to build a comparison genome index with Parus major to compare the Baeolophus bicolor reads against, and an index for the Dryobates pubescens to compare the trimmed Dryobates pubescens reads against.
+4. HISAT (alignment)
