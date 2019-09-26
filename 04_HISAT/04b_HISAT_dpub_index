@@ -1,0 +1,1 @@
+hisat2-build -f /lustre/scratch/sabaty/woodpecker-project/DownyWoodpecker/GCF_000699005.1_ASM69900v1_genomic.fna dryo_index
