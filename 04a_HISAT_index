@@ -1,5 +1,0 @@
-# creating the index files for the comparison genome (Parus major)
-# used FASTA file for Parus major from ncbi
-# the pmajor_index usage is what the index files will be named
-
-hisat2-build -f /lustre/scratch/sabaty/woodpecker-project/GreatTit/GCF_001522545.3_Parus_major1.1_genomic.fna pmajor_index
