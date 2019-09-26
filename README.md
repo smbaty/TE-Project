@@ -8,4 +8,10 @@ The preliminary steps includes renaming the fastq files for both species to have
 
 
 Both the Baeolophus bicolor and Dryobates pubescens directories includes all tools used in order and what scripts were used.
-rCorrector is the first step, the unique python script is next, and trimgalore is third.
+1. rCorrector (read error-correcting)
+2. Unique python script (used to remove pairs where one end is unfixable)
+3. Trimgalore (trimming low quality bases)
+
+
+
+Once the reads went through trimming, we used HISAT to build a comparison genome index with Parus major to compare the reads against.
