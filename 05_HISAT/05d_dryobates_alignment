@@ -4,7 +4,7 @@
 #$ -V
 #$ -cwd
 #$ -S /bin/bash
-#$ -N hisat_dryo
+#$ -N hisat_picoides
 #$ -q omni
 #$ -pe sm 4
 #$ -P quanah
@@ -12,7 +12,7 @@
 #$ -l h_rt=48:00:00
 #$ -l h_vmem=12G
 
-hisat2 -x /lustre/scratch/sabaty/woodpecker-project/hisat/dryo_index_hisat/dryo_index \
--1 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-trimgalore-results/unfixrm_${SGE_TASK_ID}_R1.cor_val_1.fq \
--2 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-trimgalore-results/unfixrm_${SGE_TASK_ID}_R2.cor_val_2.fq \
-> /lustre/scratch/sabaty/woodpecker-project/hisat/dryo_dryo_align.sam
+hisat2 -x /lustre/scratch/sabaty/woodpecker-project/hisat/picoides_index_hisat/picoides_index \ 
+-1 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-trimgalore-results/unfixrm_${SGE_TASK_ID}_R1.cor_val_1.fq \ 
+-2 /lustre/scratch/sabaty/woodpecker-project/dryobates_transcriptomes/d-trimgalore-results/unfixrm_${SGE_TASK_ID}_R2.cor_val_2.fq \ 
+> /lustre/scratch/sabaty/woodpecker-project/hisat/dryo_picoides_align.sam
