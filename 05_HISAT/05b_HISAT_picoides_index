@@ -1,0 +1,1 @@
+hisat2-build -f /lustre/scratch/sabaty/woodpecker-project/NewDownyWoodpecker/Picoides_pubescens.fa picoides_index
