@@ -11,4 +11,4 @@ Directories includes tools used in order and what scripts were used.
 1. rCorrector (read error-correcting)
 2. Unique python script (used to remove pairs where one end is unfixable)
 3. Trimgalore (trimming low quality bases)
-4. HISAT (alignment) (aligned to Parus major and Picoides pubescens)
+4. HISAT (alignment) (aligned to indexes for Parus major and Picoides pubescens)
