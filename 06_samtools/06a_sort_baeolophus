@@ -1,0 +1,15 @@
+#used to sort SAM files by read name before HTSeq
+
+#!/bin/sh
+#$ -V
+#$ -cwd
+#$ -S /bin/bash
+#$ -N sam_baeolophus
+#$ -q omni
+#$ -pe sm 4
+#$ -P quanah
+#$ -t 1-6
+#$ -l h_rt=48:00:00
+#$ -l h_vmem=12G
+
+samtools sort -m 12G -n -o /lustre/scratch/sabaty/woodpecker-project/samtools/baeolophus_sort/${SGE_TASK_ID}_baeolophus.sam -O SAM /lustre/scratch/sabaty/woodpecker-project/hisat/baeolophus_align_2/${SGE_TASK_ID}_baeo_mparus_align.sam
