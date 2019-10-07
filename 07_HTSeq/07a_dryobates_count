@@ -1,0 +1,15 @@
+#!/bin/sh
+#$ -V
+#$ -cwd
+#$ -S /bin/bash
+#$ -N htseq_d
+#$ -q omni
+#$ -pe sm 4
+#$ -P quanah
+#$ -t 7-7
+#$ -l h_rt=48:00:00
+#$ -l h_vmem=12G
+
+htseq-count -f sam /lustre/scratch/sabaty/woodpecker-project/samtools/dryobates_sort/${SGE_TASK_ID}_dryobates.sam \
+/lustre/scratch/sabaty/woodpecker-project/altered_gff/tes_plus_genes.gff \
+-o /lustre/scratch/sabaty/woodpecker-project/htseq/dryobates_htseq/${SGE_TASK_ID}_dryobates_htseq.sam
