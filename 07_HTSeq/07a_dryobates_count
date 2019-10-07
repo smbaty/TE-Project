@@ -6,7 +6,7 @@
 #$ -q omni
 #$ -pe sm 4
 #$ -P quanah
-#$ -t 7-7
+#$ -t 7-12
 #$ -l h_rt=48:00:00
 #$ -l h_vmem=12G
 
