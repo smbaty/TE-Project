@@ -12,3 +12,4 @@ Directories includes tools used in order and what scripts were used.
 2. Unique python script (used to remove pairs where one end is unfixable)
 3. Trimgalore (trimming low quality bases)
 4. HISAT (alignment) (aligned to indexes for Parus major and Picoides pubescens)
+5. samtools was used to sort sam files by read name to prepare for HTSeq.
