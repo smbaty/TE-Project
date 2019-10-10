@@ -14,6 +14,6 @@ Directories includes tools used in order and what scripts were used.
 4. HISAT (alignment) (aligned to indexes for Parus major and Picoides pubescens)
 5. samtools was used to sort sam files by read name to prepare for HTSeq.
 6. HTSeq used to built count tables. Following options were used:
-      a. TEs in introns or not (two different gtf files)
-      b. Union vs intersection-strict options (default vs --mode intersection-strict)
-      c. Nonunique all vs nonunique none options (default vs --nonunique all)
+      1. TEs in introns or not (two different gtf files)
+      2. Union vs intersection-strict options (default vs --mode intersection-strict)
+      3. Nonunique all vs nonunique none options (default vs --nonunique all)
