@@ -2,7 +2,7 @@
 #$ -V
 #$ -cwd
 #$ -S /bin/bash
-#$ -N htseq_d
+#$ -N ABC_htseq
 #$ -q omni
 #$ -pe sm 4
 #$ -P quanah
@@ -11,6 +11,5 @@
 #$ -l h_vmem=12G
 
 htseq-count -f sam /lustre/scratch/sabaty/woodpecker-project/samtools/dryobates_sort/${SGE_TASK_ID}_dryobates.sam \
-/lustre/scratch/sabaty/woodpecker-project/altered_gff/tes_plus_genes.gtf \
---nonunique all \
-> /lustre/scratch/sabaty/woodpecker-project/htseq/dryobates_table/${SGE_TASK_ID}_dryobates
+/lustre/scratch/sabaty/woodpecker-project/htseq/gtf_files/tes_plus_genes.gtf \
+> /lustre/scratch/sabaty/woodpecker-project/htseq/ABC/${SGE_TASK_ID}_dryobates_ABC.txt
