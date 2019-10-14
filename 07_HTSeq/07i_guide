@@ -1,3 +1,10 @@
-# see below file for guide to letters and their meaning
+# in /lustre/scratch/sabaty/woodpecker-project/htseq/guide/guide.txt
 
-/lustre/scratch/sabaty/woodpecker-project/htseq/guide/guide.txt
+ABC: TE’s + union + nonunique-none
+ABc: TE’s + union + nonunique-all
+AbC: TE’s + intersection-strict + nonunique-none
+Abc: TE’s + intersection-strict + nonunique all
+aBC: Nonoverlapping + union + nonunique-none
+abC: Nonoverlapping + intersection-strict + nonunique none
+aBc: Nonoverlapping + union + nonunique-all
+abc: nonoverlapping + intersection-strict + nonunique-all
