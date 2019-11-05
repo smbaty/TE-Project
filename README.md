@@ -17,3 +17,4 @@ Directories includes tools used in order and what scripts were used.
       1. TEs in introns or not (two different gtf files)
       2. Union vs intersection-strict options (default vs --mode intersection-strict)
       3. Nonunique all vs nonunique none options (default vs --nonunique all)
+7. DESeq2
